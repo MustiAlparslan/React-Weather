@@ -11,7 +11,7 @@ function App() {
 
   
   const GetApi = async (cityName) => {
-    const apiKey = "3bbab08f767badecd5c687ebe22d2495";
+    const apiKey = ""; // Your OpenWeathermap api 
     const lang = "tr";
     await axios({
       method: "post",
